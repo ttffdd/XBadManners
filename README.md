@@ -2,6 +2,8 @@
 
 ## Description 
 
+CVE-2018-16323 is a memory leakage in processing XBM images. After XBM image was converted to another image type you can extract leaked memory bytes from image data.
+
 A pretty simple tool for generating CVE-2018-16323 PoC. Directory ```samples``` contains some pregenerated PoCs easy for use.
 For using this tool you should install imagemagick:
 
@@ -53,7 +55,10 @@ You can tune logic of memory extraction from image by modifying the script (it's
 
 XBM is a black and white format. So, any result will look like kind of a zebra (if you have good imagination). Basicly, more black == more data extracted.
 
+## Affected By CVE-2018-16323
 
+Every ImageMagick's build after [that commit](https://github.com/ImageMagick/ImageMagick/commit/d9a8234d211da30baf9526fbebe9a8438ea7e11c) and before [that commit](https://github.com/ImageMagick/ImageMagick/commit/216d117f05bff87b9dc4db55a1b1fadb38bcb786) is vulnerable.
+ 
 ## Reference 
 
 * https://nvd.nist.gov/vuln/detail/CVE-2018-16323
