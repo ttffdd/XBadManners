@@ -1,0 +1,5 @@
+#define minimal_poc_width 256
+#define minimal_poc_height 256
+static char minimal_poc_bits[] = {
+  0x80000001            
+          };
