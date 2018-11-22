@@ -1,8 +1,12 @@
 # XBadManners
 
-## Description 
+## CVE Description 
 
-CVE-2018-16323 is a memory leakage in processing XBM images. After XBM image was converted to another image type you can extract leaked memory bytes from image data. Discovered by d4d.
+CVE-2018-16323 is a memory leakage in processing XBM images. After XBM image was converted to another image type you can extract leaked memory bytes from image data. 
+
+Discovered by d4d.
+
+## Tool
 
 A pretty simple tool for generating CVE-2018-16323 PoC. Directory ```samples``` contains some pregenerated PoCs easy for use.
 For using this tool you should install imagemagick:
