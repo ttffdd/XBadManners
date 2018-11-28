@@ -27,9 +27,10 @@ Any version is suitable.
 
 ```
 Usage poc generator: ./XBadManners.sh gen WIDTHxHEIGHT NAME.xbm [minimal]
-		Example gen: ./XBadManners.sh gen 512x512 poc.xbm"
+		Example gen: ./XBadManners.sh gen 512x512 poc.xbm
+		Example gen: ./XBadManners.sh gen 1024x1024 poc_minimal.xbm minimal
 Usage result recovery: ./XBadManners.sh recover SAVED_PREVIEW.png|jpeg|gif|etc
-		Example recovery: ./XBadManners.sh recover avatar.png"
+		Example recovery: ./XBadManners.sh recover avatar.png
 ```
 
  Mode ```minimal``` allows you to generate smallest possible XBM's body for pasting in BurpSuite or whatever you want. Minimal mode was tested and it works just fine. You can set any width and height in this mode. 
