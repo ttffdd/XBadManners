@@ -35,7 +35,7 @@ Usage result recovery: ./XBadManners.sh recover SAVED_PREVIEW.png|jpeg|gif|etc
 
  Mode ```minimal``` allows you to generate smallest possible XBM's body for pasting in BurpSuite or whatever you want. Minimal mode was tested and it works just fine. You can set any width and height in this mode. 
 
- Notice that you can extract a whole lot of memory using single image. The only restriction is a limitation for maximum size of the produced image by backend.
+ Notice that you can extract a lot of memory using single image. The only restriction is a limitation for maximum size of the produced image by backend.
 
  You can try to recover ```preview.png```. If you get readable words in output then this means that everything works just fine.
 
