@@ -68,7 +68,7 @@ Every ImageMagick's build after [that commit](https://github.com/ImageMagick/Ima
 
 * https://nvd.nist.gov/vuln/detail/CVE-2018-16323
 * https://www.cvedetails.com/cve/CVE-2018-16323/
-
+* Our article about ImageMagic security https://medium.com/@ilja.bv/yet-another-memory-leak-in-imagemagick-or-how-to-exploit-cve-2018-16323-a60f048a1e12
 
 
 
